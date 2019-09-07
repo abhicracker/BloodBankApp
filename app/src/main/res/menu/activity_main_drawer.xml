@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_need_donor"
+            android:icon="@drawable/ic_person"
+            android:title="Need A Donor" />
+        <item
+            android:id="@+id/nav_donor_list"
+            android:icon="@drawable/ic_donor_list"
+            android:title="Donors List" />
+        <item
+            android:id="@+id/nav_bb_list"
+            android:icon="@drawable/ic_donor_list"
+            android:title="Blood Banks" />
+        <item
+            android:id="@+id/nav_emergency"
+            android:icon="@drawable/ic_emergency"
+            android:title="24/7 Emergency" />
+
+        <item
+            android:id="@+id/nav_helplines"
+            android:icon="@drawable/ic_helplines"
+            android:title="life@one Touch Helplines" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+
+
+        </menu>
+    </item>
+
+</menu>
